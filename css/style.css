@@ -1,0 +1,44 @@
+#showcase{
+    background-color: #ffe9ed;
+    height: 95vh;
+}
+
+#how{
+    height: 100%;
+}
+
+#order{
+    background-color: #ffe9ed;
+    height: 100%;
+}
+.pizza-count, .pizza-amount, .delivery-fee, .total-amount{
+    cursor: text;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: bold;
+}
+.badge{
+    font-size: large;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#new-contact, #delivery-fee, #total-amount, #successAlert, #orderedBox{
+    display: none;
+}
+.makeDelivery:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.delivery-info{
+    padding-top: 8%;
+}
+.delivery-info h4{
+    font-weight: bold;
+}
+.from{
+    font-size: large;
+}
+.output-address{
+    display: none;
+}
